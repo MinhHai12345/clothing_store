@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-fluid {
+    width: 80%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.navigation {
+    width: 20%;
+    height: 768px;
+    overflow: auto;
+}
+
+.navigation h1 {
+    padding: 30px 80px 100px 20px;
+}
+
+.main-menu {
+    height: 520px;
+    position: relative;
+}
+
+.main-menu > li {
+    height: 50px;
+    line-height: 50px;
+    color: #737373;
+}
+
+.main-menu > li:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.main-menu > li > a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: inherit;
+    font-size: 18px;
+}
+
+.bottom-menu > li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.bottom-menu > li:hover {
+   background-color: #ccc;
+}
+
+.bottom-menu > li > a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/* .submenu {
+    position: absolute;
+}
+
+.submenu > li {
+    height: 40px;
+    line-height: 40px;
+    color: #737373;
+    width: 80%;
+    margin: 0px auto;
+    list-style-type: none;
+} */
+/* 
+.submenu > li:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.submenu > li > a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: inherit;
+    font-size: 15px;
+}
+
+.submenu > .item {
+    background-color: #f2f2f2;
+} */
+
+.content {
+    width: 80%;
+}
+
+.common-width {
+    width: 96%;
+    margin: 0px auto;
+}
+
+.header {
+    display: flex;
+    height: 87px;
+    line-height: 87px;
+}
+
+.header > i {
+    font-size: 25px;
+    line-height: inherit;
+}
+
+.header > p {
+    width: 93%;
+    font-size: 25px;
+}
+
+.header > .header-cart {
+    width: 4%;
+}
+
+.slider {
+    background-image: url("./image/jeans.jpg");
+    height: 612px;
+}
+
+.slider > .content {
+    transform: translate(4%, 30%);
+    color: white;
+}
+
+.slider > .content > span {
+    font-size: 70px;
+}
+
+.slider > .content > p {
+    font-size: 40px;
+    height: 90px;
+    line-height: 90px;
+}
+
+.slider > .content > a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.slider > .content > a:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+.content-product {
+    margin-top: 15px;
+}
+
+.content-product > .row {
+    margin-top: 15px;
+}
+
+.content-product > .row > p { 
+    margin-top: 15px;
+}
+
+.content-product > .row > p > b { 
+    padding-top: 5px;
+}
