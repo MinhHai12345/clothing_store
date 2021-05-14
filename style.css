@@ -9,12 +9,11 @@
 
 .container-fluid {
     width: 80%;
-    display: flex;
     margin: 0px auto;
 }
 
 .navigation {
-    width: 15%;
+    width: 16.5%;
     height: 768px;
     overflow: auto;
     position: fixed;
@@ -97,11 +96,11 @@
 
 .content {
     width: 80%;
-    margin-left: 18%;
+    margin-left: 20%;
 }
 
 .common-width {
-    width: 96%;
+    width: 94.812%;
     margin: 0px auto;
 }
 
@@ -163,13 +162,17 @@
 }
 
 .content-product > .row {
-    margin-top: 15px;
-    display: flex;
     width: 100%;
+    margin-top: 15px;
 }
 
 .content-product > .row > .col-item { 
-    margin-right: 3.9%;
+    display: inline-block;
+    margin-right: 3%;
+}
+.content-product > .row > .col-item:nth-child(4) { 
+    float: right;
+    margin-right: 0%;
 }
 
 .content-product > .row > .col-item > p { 
@@ -178,4 +181,136 @@
 
 .content-product > .row > p > b { 
     height: 20px;
+}
+
+.subscribe {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding-left: 2.5%;
+    padding-top: 50px;
+    height: 250px;
+}
+
+.subscribe span {
+    font-size: 50px;
+}
+
+.subscribe p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.subscribe input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.subscribe a {
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color: #f44336;
+    color: white;
+}
+
+.subscribe a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.contact {
+    height: 400px;
+    background-color: #f1f1f1;
+    padding-top: 60px;
+    display: flex;
+}
+
+.contact .contact-item {
+    width: 33.3%;
+
+}
+
+.ct-position {
+    text-align: center;
+}
+
+.contact .contact-item h4 {
+    font-size: 30px;
+}
+
+
+.contact .contact-item span {
+    font-size: 30px;
+}
+
+.ct-content {
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.ct-content form{
+    width: 85%;
+    margin: 0px auto;
+}
+
+.ct-content p {
+    margin-bottom: 15px;
+}
+
+.ct-content input {
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.ct-content button {
+    padding: 9px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.ct-content button:hover {
+    background-color: #ccc;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.ct-content > p > a {
+    color: black;
+}
+
+.ct-store > p {
+    margin-bottom: 10px;
+}
+
+.ct-store > p:nth-last-child(1) {
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.ct-store > .title {
+    font-size: 25px;
+}
+
+.footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+.footer a {
+    color: white; 
+
 }
